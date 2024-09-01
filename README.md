@@ -5,21 +5,23 @@ Copy the template, paste it to your GitHub README and edit! -->
 # Identification of pseudothrombocytopenia in blood smears
 
 
-Building AI course project
+Final project for the Building AI course
 
 ## Summary
 
-Pseudothrombocytopenia consists of a false decrease in the platelet count and can be the result of EDTA (anticoagulant)-dependent platelet aggregation or microclots formed during difficult and time-consuming blood collections.
+Pseudothrombocytopenia consists of a false decrease in the platelet count and can be the result of EDTA (anticoagulant)-dependent platelet aggregation, microclots formed during difficult and time-consuming blood collections, cold agglutinins or even improper blood sample handling.
 
 
 ## Background
 
 Due to the possible presence of platelet aggregates or microclots in the blood samples, automated platelet counting can be inaccurate, leading to potential misdiagnoses of thrombocytopenia.
-An automated platelet count lower than the reference value or than a previous result from the same patient implies confirmation by observation of the blood smear, resulting in greater time consumption to obtain analytical results.
+An automated platelet count lower than the reference value or than a previous result from the same patient implies confirmation by microscopic observation of the blood smear, resulting in greater time consumption to obtain analytical results.
 In the laboratory routine, as a biomedical scientist, this is a very commom and frequent issue, always requiring confirmation and validation by a trained and qualified professional.
 
 
 ## How is it used?
+
+Utilize image processing and machine learning techniques to identify and analyze platelet morphology in blood smears, in order to detect the presence of platelet aggregates/microclots.
 
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 
