@@ -9,7 +9,7 @@ Final project for the Building AI course
 
 ## Summary
 
-Pseudothrombocytopenia consists of a false decrease in the platelet count and can be the result of EDTA (anticoagulant)-dependent platelet aggregation, microclots formed during difficult and time-consuming blood collections, cold agglutinins or even improper blood sample handling.
+Pseudothrombocytopenia consists of a false decrease in the platelet count and can be the result of EDTA (anticoagulant)-dependent platelet aggregation, microclots formed during difficult and time-consuming blood collections, cold agglutinins or even improper blood sample handling. This project aims to detect the presence of platelet aggregates/microclots in blood smear.
 
 
 ## Background
