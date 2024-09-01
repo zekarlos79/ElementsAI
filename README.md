@@ -1,2 +1,2 @@
-# ElementsAI
-Building AI Final Project
+# Automatic counting and analysis of platelets in blood smears
+
