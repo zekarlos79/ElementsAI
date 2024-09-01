@@ -5,7 +5,7 @@ Copy the template, paste it to your GitHub README and edit! -->
 # Identification of pseudothrombocytopenia in blood smears
 
 
-Final project for the Building AI course
+Building AI course project
 
 ## Summary
 
