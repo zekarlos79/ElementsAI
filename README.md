@@ -8,12 +8,12 @@ Copy the template, paste it to your GitHub README and edit! -->
 Final project for the Building AI course
 
 ## Summary
-
-Pseudothrombocytopenia consists of a false decrease in the platelet count and can be the result of EDTA (anticoagulant)-dependent platelet aggregation, microclots formed during difficult and time-consuming blood collections, cold agglutinins or even improper blood sample handling. This project aims to detect the presence of platelet aggregates/microclots in blood smear.
+This project aims to detect the presence of platelet aggregates/microclots in peripheral blood smears, speeding up and simplifying the morphological examination and identification of pseudothrombocytopenia.
 
 
 ## Background
 
+Pseudothrombocytopenia consists of a false decrease in the platelet count and can be the result of EDTA (anticoagulant)-dependent platelet aggregation, microclots formed during difficult and time-consuming blood collections, cold agglutinins or even improper blood sample handling.
 Due to the possible presence of platelet aggregates or microclots in the blood samples, automated platelet counting can be inaccurate, leading to potential misdiagnoses of thrombocytopenia.
 An automated platelet count lower than the reference value or than a previous result from the same patient implies confirmation by microscopic observation of the blood smear, resulting in greater time consumption to obtain analytical results.
 In the laboratory routine, as a biomedical scientist, this is a very commom and frequent issue, always requiring confirmation and validation by a trained and qualified professional.
