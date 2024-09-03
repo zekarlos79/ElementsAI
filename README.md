@@ -8,7 +8,7 @@ Copy the template, paste it to your GitHub README and edit! -->
 Final project for the Building AI course
 
 ## Summary
-This project aims to detect the presence of platelet aggregates/microclots in peripheral blood smears, speeding up and simplifying the morphological examination and identification of pseudothrombocytopenia.
+This project aims to detect the presence of platelet aggregates/microclots in peripheral blood smears, simplifying the differentiation between pseudothrombocytopenia and real thrombocytopenia.
 
 
 ## Background
@@ -21,9 +21,10 @@ In the laboratory routine, as a biomedical scientist, this is a very commom and 
 
 ## How is it used?
 
-Utilize image processing and machine learning techniques to identify and analyze platelet morphology in blood smears, in order to detect the presence of platelet aggregates/microclots.
+Several images of the selected blood smears are digitalized. 
+The software extracts features from those digital images and analyses it in order to detect the presence of platelet aggregates/microclots.
+When platelet aggregates/microclots are detected, the software will block the result and recommend confirming the platelet count using another method (e.g. optical method) or repeating the blood collection using a different anticoagulant (e.g. sodium citrate). Otherwise, thrombocytopenia is confirmed and the result is automatically validated.
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
@@ -32,42 +33,22 @@ Once you upload an image to your repository, you can link link to it like this (
 If you need to resize images, you have to use an HTML tag, like this:
 <img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
 
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
 
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
 
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
 
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+Data source are the digital images obtained from the blood smears processed in the lab.
+Data is analysed using image processing and machine learning techniques (e.g. convolutional neural networks (CNNs)).
+
 
 ## Challenges
 
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+This solution identifies the presence of platelet aggregates/microcoagulants responsible for a false decrease in the automated platelet count but does not perform an actual platelet count on the sample.
 
 ## What next?
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+This project could grow if, in addition to identifying platelet aggregates/microcoagulants, it allowed to calculate the real platelet count in the sample using.
 
 
 ## Acknowledgments
