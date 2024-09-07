@@ -16,7 +16,7 @@ When an automated platelet count is lower than the reference value or differs si
 
 ## How is it used?
 
-The process involves digitizing several images of the selected blood smears. Once the AI model is trained, it extracts features from these images to identify the presence of platelet aggregates or microclots.
+The process involves digitalising several images of the selected blood smears. Once the AI model is trained, it extracts features from these images to identify the presence of platelet aggregates or microclots.
 If platelet aggregates or microclots are detected, the software flags the result and recommends re-confirming the platelet count using alternative methods (e.g., optical platelet counting) or suggests collecting a new sample with a different anticoagulant, such as sodium citrate. 
 If no platelet aggregates or microclots are found, the result indicating thrombocytopenia is automatically validated.
 
