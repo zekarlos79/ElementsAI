@@ -1,7 +1,3 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
 # Identification of pseudothrombocytopenia in blood smears
 
 
@@ -22,16 +18,13 @@ In the laboratory routine, as a biomedical scientist, this is a very commom and 
 ## How is it used?
 
 Several images of the selected blood smears are digitalized. 
-The software extracts features from those digital images and analyses it in order to detect the presence of platelet aggregates/microclots.
+Once the model is trained, the software extracts features from those digital images and analyses it in order to detect the presence of platelet aggregates/microclots.
 When platelet aggregates/microclots are detected, the software will block the result and recommend confirming the platelet count using another method (e.g. optical method) or repeating the blood collection using a different anticoagulant (e.g. sodium citrate). Otherwise, thrombocytopenia is confirmed and the result is automatically validated.
 
 
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+<img src="https://github.com/user-attachments/assets/07ecbc90-edc4-4b63-85d6-a04bf155af53" width="600">
 
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+<img src="https://github.com/user-attachments/assets/bdea7f8f-768f-4fdb-abe7-69628b130086" width="600">
 
 
 
@@ -45,11 +38,12 @@ Data is analysed using image processing and machine learning techniques (e.g. co
 ## Challenges
 
 This solution identifies the presence of platelet aggregates/microcoagulants responsible for a false decrease in the automated platelet count but does not perform an actual platelet count on the sample.
+This project requires labs to have a slide scanner to digitalise the images used as data.
 
 ## What next?
 
-This project could grow if, in addition to identifying platelet aggregates/microcoagulants, it allowed to calculate the real platelet count in the sample using.
-
+The next step would be the optical count of platelets through the images used as data. 
+In this way, as in addition to detecting the presence of platelet aggregates/microcoagulants, it would be possible to estimate the real number of platelets in the sample in combination with the data extracted from the automated complete blood count (CBC) and avoid to repeat the blood collection.
 
 ## Acknowledgments
 
