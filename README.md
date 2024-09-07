@@ -23,7 +23,7 @@ If no platelet aggregates or microclots are found, the result indicating thrombo
 
 ## Data sources and AI methods
 
-The data source are the digital images obtained from the blood smears processed in the laboratory.
+The data sources are the digital images obtained from the blood smears processed in the laboratory.
 The analysis is carried out using image processing techniques and machine learning models, particularly convolutional neural networks (CNNs).
 
 <img src="https://github.com/user-attachments/assets/07ecbc90-edc4-4b63-85d6-a04bf155af53" width="600">
